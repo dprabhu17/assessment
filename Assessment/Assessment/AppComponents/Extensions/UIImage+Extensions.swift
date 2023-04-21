@@ -23,3 +23,17 @@ enum ImageAsset: String {
         UIImage.init(named: self.rawValue) ?? nil
     }
 }
+
+extension UIImageView {
+    func setImage(url: String?) {
+        self.image = UIImage.get(.placeholder)
+        CustomDownloadManager.shared.downloadImage(url: url) { image, _, _, error in
+            if error == nil {
+                DispatchQueue.main.async {
+                    self.image = nil
+                    self.image = image
+                }
+            }
+        }
+    }
+}

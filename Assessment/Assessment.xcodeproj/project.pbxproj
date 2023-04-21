@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F510367629EFB3AC00792F22 /* AstronautListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510367529EFB3AC00792F22 /* AstronautListView.swift */; };
 		F51036B429F128EB00792F22 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036B329F128EB00792F22 /* UIImage+Extensions.swift */; };
 		F54B6C5429F263BA00FF996A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F54B6C5329F263BA00FF996A /* RxSwift */; };
 		F54B6C5C29F263D300FF996A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C5729F263D300FF996A /* Reachability.swift */; };
@@ -16,13 +15,27 @@
 		F54B6C5F29F263D300FF996A /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C5B29F263D300FF996A /* NetworkConfig.swift */; };
 		F54B6C6229F2641700FF996A /* AstronautRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6129F2641700FF996A /* AstronautRepository.swift */; };
 		F54B6C6429F2642E00FF996A /* AstronautModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6329F2642E00FF996A /* AstronautModels.swift */; };
+		F54B6C7129F2664700FF996A /* AstronautDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6629F2664700FF996A /* AstronautDetailView.swift */; };
+		F54B6C7229F2664700FF996A /* AstronautDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6729F2664700FF996A /* AstronautDetailViewController.swift */; };
+		F54B6C7329F2664700FF996A /* AstronautDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B6C6829F2664700FF996A /* AstronautDetailViewController.xib */; };
+		F54B6C7429F2664700FF996A /* AstronautListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B6C6A29F2664700FF996A /* AstronautListViewController.xib */; };
+		F54B6C7529F2664700FF996A /* AstronautCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6C29F2664700FF996A /* AstronautCell.swift */; };
+		F54B6C7629F2664700FF996A /* AstronautDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6D29F2664700FF996A /* AstronautDataSource.swift */; };
+		F54B6C7729F2664700FF996A /* AstronautCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B6C6E29F2664700FF996A /* AstronautCell.xib */; };
+		F54B6C7829F2664700FF996A /* AstronautListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6F29F2664700FF996A /* AstronautListView.swift */; };
+		F54B6C7929F2664700FF996A /* AstronautListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7029F2664700FF996A /* AstronautListViewController.swift */; };
+		F54B6C7C29F266AE00FF996A /* AstronautListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7A29F266AE00FF996A /* AstronautListPresenter.swift */; };
+		F54B6C7D29F266AE00FF996A /* AstronautDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7B29F266AE00FF996A /* AstronautDetailPresenter.swift */; };
+		F54B6C8129F2675400FF996A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7E29F2675400FF996A /* UIViewController+Extensions.swift */; };
+		F54B6C8229F2675400FF996A /* UIView+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7F29F2675400FF996A /* UIView+Design.swift */; };
+		F54B6C8329F2675400FF996A /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C8029F2675400FF996A /* UITableView+Extensions.swift */; };
+		F54B6C8729F2677500FF996A /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C8529F2677500FF996A /* DownloadOperation.swift */; };
+		F54B6C8829F2677500FF996A /* CustomMediaDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C8629F2677500FF996A /* CustomMediaDownloadManager.swift */; };
 		F55D087429EF1F2B00C49526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D087329EF1F2B00C49526 /* AppDelegate.swift */; };
 		F55D087D29EF1F2C00C49526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55D087C29EF1F2C00C49526 /* Assets.xcassets */; };
 		F55D088029EF1F2C00C49526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55D087E29EF1F2C00C49526 /* LaunchScreen.storyboard */; };
 		F55D088B29EF1F2C00C49526 /* AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D088A29EF1F2C00C49526 /* AssessmentTests.swift */; };
 		F55D08A429EF207400C49526 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55D08A329EF207400C49526 /* Color.xcassets */; };
-		F55D08B229EF2A3400C49526 /* AstronautListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D08B029EF2A3400C49526 /* AstronautListViewController.swift */; };
-		F55D08B329EF2A3400C49526 /* AstronautListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F55D08B129EF2A3400C49526 /* AstronautListViewController.xib */; };
 		F55D08C029EF39E100C49526 /* UIColor+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D08BF29EF39E100C49526 /* UIColor+App.swift */; };
 		F55D08C229EF3A2A00C49526 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D08C129EF3A2A00C49526 /* AppStrings.swift */; };
 /* End PBXBuildFile section */
@@ -38,7 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F510367529EFB3AC00792F22 /* AstronautListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListView.swift; sourceTree = "<group>"; };
 		F51036B329F128EB00792F22 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		F54B6C5729F263D300FF996A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		F54B6C5929F263D300FF996A /* HTTPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
@@ -46,6 +58,22 @@
 		F54B6C5B29F263D300FF996A /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
 		F54B6C6129F2641700FF996A /* AstronautRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautRepository.swift; sourceTree = "<group>"; };
 		F54B6C6329F2642E00FF996A /* AstronautModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautModels.swift; sourceTree = "<group>"; };
+		F54B6C6629F2664700FF996A /* AstronautDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautDetailView.swift; sourceTree = "<group>"; };
+		F54B6C6729F2664700FF996A /* AstronautDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautDetailViewController.swift; sourceTree = "<group>"; };
+		F54B6C6829F2664700FF996A /* AstronautDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AstronautDetailViewController.xib; sourceTree = "<group>"; };
+		F54B6C6A29F2664700FF996A /* AstronautListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AstronautListViewController.xib; sourceTree = "<group>"; };
+		F54B6C6C29F2664700FF996A /* AstronautCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautCell.swift; sourceTree = "<group>"; };
+		F54B6C6D29F2664700FF996A /* AstronautDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautDataSource.swift; sourceTree = "<group>"; };
+		F54B6C6E29F2664700FF996A /* AstronautCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AstronautCell.xib; sourceTree = "<group>"; };
+		F54B6C6F29F2664700FF996A /* AstronautListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautListView.swift; sourceTree = "<group>"; };
+		F54B6C7029F2664700FF996A /* AstronautListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautListViewController.swift; sourceTree = "<group>"; };
+		F54B6C7A29F266AE00FF996A /* AstronautListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautListPresenter.swift; sourceTree = "<group>"; };
+		F54B6C7B29F266AE00FF996A /* AstronautDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautDetailPresenter.swift; sourceTree = "<group>"; };
+		F54B6C7E29F2675400FF996A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		F54B6C7F29F2675400FF996A /* UIView+Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Design.swift"; sourceTree = "<group>"; };
+		F54B6C8029F2675400FF996A /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		F54B6C8529F2677500FF996A /* DownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
+		F54B6C8629F2677500FF996A /* CustomMediaDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMediaDownloadManager.swift; sourceTree = "<group>"; };
 		F55D087029EF1F2B00C49526 /* Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55D087329EF1F2B00C49526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F55D087C29EF1F2C00C49526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,8 +82,6 @@
 		F55D088629EF1F2C00C49526 /* AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55D088A29EF1F2C00C49526 /* AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentTests.swift; sourceTree = "<group>"; };
 		F55D08A329EF207400C49526 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
-		F55D08B029EF2A3400C49526 /* AstronautListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListViewController.swift; sourceTree = "<group>"; };
-		F55D08B129EF2A3400C49526 /* AstronautListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AstronautListViewController.xib; sourceTree = "<group>"; };
 		F55D08BF29EF39E100C49526 /* UIColor+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+App.swift"; sourceTree = "<group>"; };
 		F55D08C129EF3A2A00C49526 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +138,46 @@
 				F54B6C6129F2641700FF996A /* AstronautRepository.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		F54B6C6529F2664700FF996A /* AstronautDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F54B6C6629F2664700FF996A /* AstronautDetailView.swift */,
+				F54B6C6729F2664700FF996A /* AstronautDetailViewController.swift */,
+				F54B6C6829F2664700FF996A /* AstronautDetailViewController.xib */,
+			);
+			path = AstronautDetails;
+			sourceTree = "<group>";
+		};
+		F54B6C6929F2664700FF996A /* AstronautList */ = {
+			isa = PBXGroup;
+			children = (
+				F54B6C6A29F2664700FF996A /* AstronautListViewController.xib */,
+				F54B6C6B29F2664700FF996A /* TableView */,
+				F54B6C6F29F2664700FF996A /* AstronautListView.swift */,
+				F54B6C7029F2664700FF996A /* AstronautListViewController.swift */,
+			);
+			path = AstronautList;
+			sourceTree = "<group>";
+		};
+		F54B6C6B29F2664700FF996A /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				F54B6C6C29F2664700FF996A /* AstronautCell.swift */,
+				F54B6C6D29F2664700FF996A /* AstronautDataSource.swift */,
+				F54B6C6E29F2664700FF996A /* AstronautCell.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		F54B6C8429F2677500FF996A /* ImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				F54B6C8529F2677500FF996A /* DownloadOperation.swift */,
+				F54B6C8629F2677500FF996A /* CustomMediaDownloadManager.swift */,
+			);
+			path = ImageDownloader;
 			sourceTree = "<group>";
 		};
 		F55D086729EF1F2B00C49526 = {
@@ -176,6 +242,7 @@
 		F55D08AB29EF28C100C49526 /* AppComponents */ = {
 			isa = PBXGroup;
 			children = (
+				F54B6C8429F2677500FF996A /* ImageDownloader */,
 				F54B6C5529F263D300FF996A /* HTTPServices */,
 				F55D08BA29EF2C3300C49526 /* Config */,
 				F55D08B529EF2A6600C49526 /* Extensions */,
@@ -194,7 +261,8 @@
 		F55D08AD29EF297300C49526 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F55D08AF29EF299800C49526 /* AstronautList */,
+				F54B6C6529F2664700FF996A /* AstronautDetails */,
+				F54B6C6929F2664700FF996A /* AstronautList */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,23 +270,18 @@
 		F55D08AE29EF297800C49526 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				F54B6C7B29F266AE00FF996A /* AstronautDetailPresenter.swift */,
+				F54B6C7A29F266AE00FF996A /* AstronautListPresenter.swift */,
 			);
 			path = Presenters;
-			sourceTree = "<group>";
-		};
-		F55D08AF29EF299800C49526 /* AstronautList */ = {
-			isa = PBXGroup;
-			children = (
-				F510367529EFB3AC00792F22 /* AstronautListView.swift */,
-				F55D08B029EF2A3400C49526 /* AstronautListViewController.swift */,
-				F55D08B129EF2A3400C49526 /* AstronautListViewController.xib */,
-			);
-			path = AstronautList;
 			sourceTree = "<group>";
 		};
 		F55D08B529EF2A6600C49526 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F54B6C8029F2675400FF996A /* UITableView+Extensions.swift */,
+				F54B6C7F29F2675400FF996A /* UIView+Design.swift */,
+				F54B6C7E29F2675400FF996A /* UIViewController+Extensions.swift */,
 				F55D08BF29EF39E100C49526 /* UIColor+App.swift */,
 				F51036B329F128EB00792F22 /* UIImage+Extensions.swift */,
 			);
@@ -321,10 +384,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F55D08B329EF2A3400C49526 /* AstronautListViewController.xib in Resources */,
 				F55D088029EF1F2C00C49526 /* LaunchScreen.storyboard in Resources */,
+				F54B6C7429F2664700FF996A /* AstronautListViewController.xib in Resources */,
 				F55D08A429EF207400C49526 /* Color.xcassets in Resources */,
 				F55D087D29EF1F2C00C49526 /* Assets.xcassets in Resources */,
+				F54B6C7329F2664700FF996A /* AstronautDetailViewController.xib in Resources */,
+				F54B6C7729F2664700FF996A /* AstronautCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,18 +429,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54B6C7629F2664700FF996A /* AstronautDataSource.swift in Sources */,
+				F54B6C7529F2664700FF996A /* AstronautCell.swift in Sources */,
 				F54B6C5C29F263D300FF996A /* Reachability.swift in Sources */,
+				F54B6C8729F2677500FF996A /* DownloadOperation.swift in Sources */,
 				F54B6C6429F2642E00FF996A /* AstronautModels.swift in Sources */,
+				F54B6C8829F2677500FF996A /* CustomMediaDownloadManager.swift in Sources */,
+				F54B6C7129F2664700FF996A /* AstronautDetailView.swift in Sources */,
 				F54B6C6229F2641700FF996A /* AstronautRepository.swift in Sources */,
-				F510367629EFB3AC00792F22 /* AstronautListView.swift in Sources */,
-				F55D08B229EF2A3400C49526 /* AstronautListViewController.swift in Sources */,
+				F54B6C8129F2675400FF996A /* UIViewController+Extensions.swift in Sources */,
+				F54B6C7829F2664700FF996A /* AstronautListView.swift in Sources */,
+				F54B6C8229F2675400FF996A /* UIView+Design.swift in Sources */,
 				F55D08C029EF39E100C49526 /* UIColor+App.swift in Sources */,
+				F54B6C7929F2664700FF996A /* AstronautListViewController.swift in Sources */,
 				F54B6C5D29F263D300FF996A /* HTTPError.swift in Sources */,
 				F55D08C229EF3A2A00C49526 /* AppStrings.swift in Sources */,
 				F54B6C5F29F263D300FF996A /* NetworkConfig.swift in Sources */,
 				F51036B429F128EB00792F22 /* UIImage+Extensions.swift in Sources */,
+				F54B6C8329F2675400FF996A /* UITableView+Extensions.swift in Sources */,
+				F54B6C7229F2664700FF996A /* AstronautDetailViewController.swift in Sources */,
 				F55D087429EF1F2B00C49526 /* AppDelegate.swift in Sources */,
+				F54B6C7C29F266AE00FF996A /* AstronautListPresenter.swift in Sources */,
 				F54B6C5E29F263D300FF996A /* HTTPServices.swift in Sources */,
+				F54B6C7D29F266AE00FF996A /* AstronautDetailPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
