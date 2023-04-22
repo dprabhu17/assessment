@@ -6,7 +6,8 @@ An assessment to evaluate technical ability, we would like to develop a native i
 - Add a button on top right to sort the results based on name property.
 - On tap of an individual list item, consume API to retrieve more details about the item and navigate to a new screen which displays the result appropriately.
 
-Link to test the app online: https://appetize.io/app/uelhxp2u7nf5avfciggo67dtlu
+### Demo:
+https://user-images.githubusercontent.com/16114401/233785791-9edfb984-0d16-463a-b867-551a6f8ee1ee.mov
 
 ## Tools & Technologies used:
 - IDE      : XCode 14.2
