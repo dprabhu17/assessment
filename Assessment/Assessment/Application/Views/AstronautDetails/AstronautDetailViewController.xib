@@ -33,20 +33,24 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tWp-OV-uOe" userLabel="container">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="533"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="534.5"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SYg-rz-RFb">
                                     <rect key="frame" x="87.5" y="30" width="200" height="200"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="200" id="2By-yg-yGZ"/>
-                                        <constraint firstAttribute="width" constant="200" id="KuX-S3-DKZ"/>
+                                        <constraint firstAttribute="height" constant="200" id="2By-yg-yGZ">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                        </constraint>
+                                        <constraint firstAttribute="width" constant="200" id="KuX-S3-DKZ">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                        </constraint>
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5v6-Zi-4FN" userLabel="fields">
-                                    <rect key="frame" x="25" y="260" width="325" height="273"/>
+                                    <rect key="frame" x="25" y="260" width="325" height="274.5"/>
                                     <subviews>
                                         <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OOh-3s-ECv" userLabel="name">
-                                            <rect key="frame" x="0.0" y="0.0" width="325" height="45"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="325" height="46.5"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIw-t5-E8r">
                                                     <rect key="frame" x="0.0" y="0.0" width="325" height="20"/>
@@ -59,23 +63,31 @@
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="profile.fName"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                    </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovw-uj-i2y" userLabel="name">
-                                                    <rect key="frame" x="0.0" y="25" width="325" height="20"/>
+                                                    <rect key="frame" x="0.0" y="25" width="325" height="21.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" name="appBackground"/>
                                                     <nil key="highlightedColor"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="profile.fName"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="45" id="7WH-iy-WEe"/>
+                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="7WH-iy-WEe"/>
                                                 <constraint firstAttribute="trailing" secondItem="ovw-uj-i2y" secondAttribute="trailing" id="MVE-go-Nfx"/>
                                                 <constraint firstItem="ovw-uj-i2y" firstAttribute="leading" secondItem="OOh-3s-ECv" secondAttribute="leading" id="PHd-eY-TAA"/>
-                                                <constraint firstItem="ovw-uj-i2y" firstAttribute="top" secondItem="eIw-t5-E8r" secondAttribute="bottom" constant="5" id="QSi-uB-AKy"/>
+                                                <constraint firstItem="ovw-uj-i2y" firstAttribute="top" secondItem="eIw-t5-E8r" secondAttribute="bottom" constant="5" id="QSi-uB-AKy">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                                                </constraint>
                                                 <constraint firstAttribute="bottom" secondItem="ovw-uj-i2y" secondAttribute="bottom" id="VYw-dq-gcH"/>
                                                 <constraint firstAttribute="trailing" secondItem="eIw-t5-E8r" secondAttribute="trailing" id="aLT-MM-eGj"/>
                                                 <constraint firstItem="eIw-t5-E8r" firstAttribute="leading" secondItem="OOh-3s-ECv" secondAttribute="leading" id="fXG-2D-0HV"/>
@@ -83,7 +95,7 @@
                                             </constraints>
                                         </view>
                                         <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KG2-PP-Fff" userLabel="nationality">
-                                            <rect key="frame" x="0.0" y="65" width="325" height="46"/>
+                                            <rect key="frame" x="0.0" y="66.5" width="325" height="46"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nationality" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exL-em-hEN">
                                                     <rect key="frame" x="0.0" y="0.0" width="325" height="19.5"/>
@@ -93,6 +105,9 @@
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="profile.fName"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                    </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ia8-vM-m0k" userLabel="nationality">
                                                     <rect key="frame" x="0.0" y="24.5" width="325" height="21.5"/>
@@ -102,13 +117,18 @@
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="profile.fName"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="ia8-vM-m0k" secondAttribute="trailing" id="3wC-dT-Zgc"/>
                                                 <constraint firstItem="ia8-vM-m0k" firstAttribute="leading" secondItem="KG2-PP-Fff" secondAttribute="leading" id="BdT-IS-VhM"/>
-                                                <constraint firstItem="ia8-vM-m0k" firstAttribute="top" secondItem="exL-em-hEN" secondAttribute="bottom" constant="5" id="DqN-43-xNz"/>
+                                                <constraint firstItem="ia8-vM-m0k" firstAttribute="top" secondItem="exL-em-hEN" secondAttribute="bottom" constant="5" id="DqN-43-xNz">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                                                </constraint>
                                                 <constraint firstAttribute="bottom" secondItem="ia8-vM-m0k" secondAttribute="bottom" id="SuK-P0-Eip"/>
                                                 <constraint firstItem="exL-em-hEN" firstAttribute="top" secondItem="KG2-PP-Fff" secondAttribute="top" id="gmP-hB-v5a"/>
                                                 <constraint firstItem="exL-em-hEN" firstAttribute="leading" secondItem="KG2-PP-Fff" secondAttribute="leading" id="loo-hx-KVF"/>
@@ -116,7 +136,7 @@
                                             </constraints>
                                         </view>
                                         <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IEI-aO-2Oh" userLabel="dob">
-                                            <rect key="frame" x="0.0" y="131" width="325" height="46"/>
+                                            <rect key="frame" x="0.0" y="132.5" width="325" height="46"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of birth" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lfo-b6-MRi">
                                                     <rect key="frame" x="0.0" y="0.0" width="325" height="19.5"/>
@@ -126,6 +146,9 @@
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="profile.fName"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                    </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YYYY-MM-DD" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1m3-8k-RDT" userLabel="dob">
                                                     <rect key="frame" x="0.0" y="24.5" width="325" height="21.5"/>
@@ -135,12 +158,17 @@
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="profile.fName"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             <constraints>
                                                 <constraint firstItem="Lfo-b6-MRi" firstAttribute="top" secondItem="IEI-aO-2Oh" secondAttribute="top" id="B61-RD-i2W"/>
-                                                <constraint firstItem="1m3-8k-RDT" firstAttribute="top" secondItem="Lfo-b6-MRi" secondAttribute="bottom" constant="5" id="FOF-dI-l36"/>
+                                                <constraint firstItem="1m3-8k-RDT" firstAttribute="top" secondItem="Lfo-b6-MRi" secondAttribute="bottom" constant="5" id="FOF-dI-l36">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                                                </constraint>
                                                 <constraint firstItem="Lfo-b6-MRi" firstAttribute="leading" secondItem="IEI-aO-2Oh" secondAttribute="leading" id="JYW-PH-1Hg"/>
                                                 <constraint firstAttribute="trailing" secondItem="1m3-8k-RDT" secondAttribute="trailing" id="Ri3-Zq-3jE"/>
                                                 <constraint firstItem="1m3-8k-RDT" firstAttribute="leading" secondItem="IEI-aO-2Oh" secondAttribute="leading" id="aIo-Gr-PJa"/>
@@ -149,7 +177,7 @@
                                             </constraints>
                                         </view>
                                         <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ty2-FD-GP6" userLabel="bio">
-                                            <rect key="frame" x="0.0" y="197" width="325" height="46"/>
+                                            <rect key="frame" x="0.0" y="198.5" width="325" height="46"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biography" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNv-sf-FI0">
                                                     <rect key="frame" x="0.0" y="0.0" width="325" height="19.5"/>
@@ -159,6 +187,9 @@
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="profile.fName"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                    </variation>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9B5-Dv-QWz" userLabel="bio">
                                                     <rect key="frame" x="0.0" y="24.5" width="325" height="21.5"/>
@@ -168,6 +199,9 @@
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="string" keyPath="textKey" value="profile.fName"/>
                                                     </userDefinedRuntimeAttributes>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                    </variation>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -176,7 +210,9 @@
                                                 <constraint firstAttribute="trailing" secondItem="LNv-sf-FI0" secondAttribute="trailing" id="2pf-0M-1Cw"/>
                                                 <constraint firstItem="9B5-Dv-QWz" firstAttribute="leading" secondItem="Ty2-FD-GP6" secondAttribute="leading" id="9ik-QS-i4J"/>
                                                 <constraint firstAttribute="bottom" secondItem="9B5-Dv-QWz" secondAttribute="bottom" id="Q2P-mi-Twl"/>
-                                                <constraint firstItem="9B5-Dv-QWz" firstAttribute="top" secondItem="LNv-sf-FI0" secondAttribute="bottom" constant="5" id="QIt-Yn-kcr"/>
+                                                <constraint firstItem="9B5-Dv-QWz" firstAttribute="top" secondItem="LNv-sf-FI0" secondAttribute="bottom" constant="5" id="QIt-Yn-kcr">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                                                </constraint>
                                                 <constraint firstItem="LNv-sf-FI0" firstAttribute="top" secondItem="Ty2-FD-GP6" secondAttribute="top" id="mX1-Wb-j8d"/>
                                                 <constraint firstAttribute="trailing" secondItem="9B5-Dv-QWz" secondAttribute="trailing" id="y98-xF-12k"/>
                                             </constraints>
@@ -204,7 +240,9 @@
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="5v6-Zi-4FN" secondAttribute="bottom" id="8QM-VC-Q0q"/>
                                 <constraint firstAttribute="trailing" secondItem="5v6-Zi-4FN" secondAttribute="trailing" constant="25" id="BAU-0M-Fng"/>
-                                <constraint firstItem="SYg-rz-RFb" firstAttribute="top" secondItem="tWp-OV-uOe" secondAttribute="top" constant="30" id="E6E-oe-zMM"/>
+                                <constraint firstItem="SYg-rz-RFb" firstAttribute="top" secondItem="tWp-OV-uOe" secondAttribute="top" constant="30" id="E6E-oe-zMM">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                                </constraint>
                                 <constraint firstItem="5v6-Zi-4FN" firstAttribute="top" secondItem="SYg-rz-RFb" secondAttribute="bottom" constant="30" id="Ndf-Z4-0OY"/>
                                 <constraint firstItem="5v6-Zi-4FN" firstAttribute="leading" secondItem="tWp-OV-uOe" secondAttribute="leading" constant="25" id="TaP-Tw-NBG"/>
                                 <constraint firstItem="SYg-rz-RFb" firstAttribute="centerX" secondItem="tWp-OV-uOe" secondAttribute="centerX" id="jFq-G8-P1L"/>

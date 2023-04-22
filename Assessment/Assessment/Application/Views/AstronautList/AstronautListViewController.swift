@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import RxSwift
 
 // View conroller to display list of astronauts
 class AstronautListViewController: UIViewController {
@@ -59,17 +58,18 @@ private extension AstronautListViewController {
     }
 
     func setFilterButtonOnTop() {
-        let filterButton = UIBarButtonItem(title: nil,
-                                           image: UIImage.get(.iconFilterDisabled),
-                                           target: self, action: #selector(filterRecords))
-        navigationItem.rightBarButtonItems = [filterButton]
-        reloadFilter()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage.get(.iconFilterDisabled), style: .plain,
+                                                            target: self, action: #selector(filterRecords))
     }
 
     func reloadFilter() {
         let filterImage = astronautsPresenter.filteredByName ? UIImage.get(.iconFilterEnabled) : UIImage.get(.iconFilterDisabled)
         navigationItem.rightBarButtonItems?.first?.image = filterImage
-        navigationItem.rightBarButtonItem?.isHidden = astronautsPresenter.getAstronauts().isEmpty
+        if astronautsPresenter.getAstronauts().isEmpty {
+            navigationItem.rightBarButtonItem = nil
+        } else if navigationItem.rightBarButtonItem == nil {
+            setFilterButtonOnTop()
+        }
     }
 
 }

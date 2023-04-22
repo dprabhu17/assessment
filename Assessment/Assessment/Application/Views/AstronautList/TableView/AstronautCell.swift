@@ -23,6 +23,7 @@ class AstronautCell: UITableViewCell {
         didSet {
             imgProfile.image = nil
             imgProfile.image = image
+            imgProfile.setAsCircle()
         }
     }
 
@@ -36,6 +37,5 @@ class AstronautCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         vwCard.setAsCardView()
-        imgProfile.setAsCircle()
     }
 }

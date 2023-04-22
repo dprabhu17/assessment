@@ -40,6 +40,11 @@ class AstronautDetailViewController: UIViewController {
         buildUI()
     }
 
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        imgProfile.setAsCircle()
+    }
+
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -50,7 +55,6 @@ class AstronautDetailViewController: UIViewController {
 extension AstronautDetailViewController {
 
     func buildUI() {
-        imgProfile.setAsCircle()
         vwContainer.isHidden = true
         navigationController?.navigationBar.prefersLargeTitles = false
         astronautsDetailPresenter.loadAstronautProfile()
