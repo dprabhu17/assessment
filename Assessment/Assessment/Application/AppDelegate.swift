@@ -12,28 +12,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: Properties
     var window: UIWindow?
+    var coordinator: MainCoordinator?
 
     // MARK: Application Lifecycle methods
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        let repository = AstronautsRepository(client: HTTPServices())
-        let astronautsPresenter = AstronautListPresenter(astronautRepository: repository)
-        let astronautsDataSource = AstronautDataSource(presenter: astronautsPresenter)
-        let astronautListVC = AstronautListViewController(astronautsPresenter: astronautsPresenter,
-                                                          astronautsDataSource: astronautsDataSource)
-        let navigationController = UINavigationController(rootViewController: astronautListVC)
-        let navBarAppearance = UINavigationBarAppearance()
-        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.get(.appYellow)]
-        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.get(.appYellow)]
-        navBarAppearance.backgroundColor = UIColor.get(.appBackground)
-
-        navigationController.navigationBar.scrollEdgeAppearance = navBarAppearance
-        navigationController.navigationBar.standardAppearance = navBarAppearance
-        navigationController.navigationBar.prefersLargeTitles = true
-        navigationController.navigationBar.tintColor = UIColor.get(.appYellow)
+        // Launch initial view controller via Coordinator
+        let navController = UINavigationController()
+        coordinator = MainCoordinator(factory: AppFactory(), navigationController: navController)
+        coordinator?.start()
 
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = navigationController
+        window?.rootViewController = navController
         window?.makeKeyAndVisible()
         return true
     }

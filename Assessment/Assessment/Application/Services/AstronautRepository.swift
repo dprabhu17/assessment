@@ -29,13 +29,13 @@ extension AstronautsRepository: Repository {
 
     // Get an astronauts by id
     func getAstronaut(by id: Int) -> Single<Astronaut> {
-        let resource = Resource<Astronaut>(url: APIEndPoints.austranautDetails(id: id).url)
+        let resource = Resource<Astronaut>(url: APIEndPoints.astronautDetails(id: id).url)
         return client.load(resource: resource)
     }
 
     // Get all astronauts
     func getAstronauts() -> Single<[Astronaut]> {
-        let resource = Resource<AstronautList>(url: APIEndPoints.austranautList.url)
+        let resource = Resource<AstronautList>(url: APIEndPoints.astronautList.url)
         return client.load(resource: resource).map({ $0.results })
     }
 }

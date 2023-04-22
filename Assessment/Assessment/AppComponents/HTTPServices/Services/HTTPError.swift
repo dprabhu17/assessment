@@ -15,8 +15,8 @@ public enum NetworkError: Error {
 }
 
 extension Error {
-    var errorDescription: String {
-        (self as? NetworkError)?.description ?? ""
+    var errorDescription: String? {
+        (self as? NetworkError)?.description
     }
 }
 

@@ -8,7 +8,7 @@
 import Foundation
 import RxSwift
 
-class AstronautListPresenter {
+public class AstronautListPresenter {
 
     // MARK: Properties
     private weak var astronautListView: AstronautListView?
@@ -33,17 +33,23 @@ class AstronautListPresenter {
 // MARK: Instance Methods
 extension AstronautListPresenter {
 
+    private func showAstronauts(astronauts: [Astronaut]) {
+        receivedAstronauts = astronauts
+        showAstronautsBasedOnFilter()
+    }
+
     func showAstronautsBasedOnFilter() {
         filteredByName = !filteredByName
-        astronauts = filteredByName ? receivedAstronauts.sorted { $0.name ?? "" < $1.name ?? ""} : receivedAstronauts
+        astronauts = filteredByName ? receivedAstronauts.sorted { $0.name < $1.name} : receivedAstronauts
         astronautListView?.reloadData()
     }
 
+    // Load astronauts from api
     func loadAstronauts() {
         astronautListView?.showLoadingStatus()
         astronautRepository.getAstronauts()
-            .subscribe { [weak self] austronauts in
-                self?.showAstronauts(astronauts: austronauts)
+            .subscribe { [weak self] astronauts in
+                self?.showAstronauts(astronauts: astronauts)
             } onFailure: { [weak self] error in
                 self?.astronautListView?.showErrorWith(message: error.errorDescription)
             } onDisposed: { [weak self] in
@@ -51,17 +57,13 @@ extension AstronautListPresenter {
             }.disposed(by: disposeBag)
     }
 
-    func showAstronauts(astronauts: [Astronaut]) {
-        receivedAstronauts = astronauts
-        showAstronautsBasedOnFilter()
-    }
-
-    public func onSelect(austronaut selectedAstronaut: Astronaut) {
-        guard let astronautId = selectedAstronaut.astronautId else { return }
+    // Get selected astronaut detail from api
+    func onSelect(astronaut selectedAstronaut: Astronaut) {
+        let astronautId = selectedAstronaut.astronautId
         astronautListView?.showLoadingStatus()
         astronautRepository.getAstronaut(by: astronautId)
-            .subscribe { [weak self] austronaut in
-                self?.astronautListView?.showDetail(for: austronaut)
+            .subscribe { [weak self] astronaut in
+                self?.astronautListView?.showDetail(for: astronaut)
             } onFailure: { [weak self] error in
                 self?.astronautListView?.showErrorWith(message: error.errorDescription)
             } onDisposed: { [weak self] in

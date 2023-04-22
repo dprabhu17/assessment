@@ -7,6 +7,7 @@
 
 import UIKit
 
+// View conroller to display detail of a selected astronaut
 class AstronautDetailViewController: UIViewController {
 
     // MARK: Properties
@@ -31,7 +32,7 @@ class AstronautDetailViewController: UIViewController {
     }
 
     required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        return nil
     }
 
     override func viewDidLoad() {
@@ -52,7 +53,6 @@ extension AstronautDetailViewController {
         imgProfile.setAsCircle()
         vwContainer.isHidden = true
         navigationController?.navigationBar.prefersLargeTitles = false
-        astronautsDetailPresenter.attachView(astronautDetailView: self)
         astronautsDetailPresenter.loadAstronautProfile()
     }
 
@@ -61,13 +61,11 @@ extension AstronautDetailViewController {
 // MARK: AstronautDetailView - Delegates
 extension AstronautDetailViewController: AstronautDetailView {
 
+    // To display received astronaut details
     func showDetail(for model: Astronaut) {
         vwContainer.isHidden = false
         imgProfile.setImage(url: model.profileImageThumbnail)
-
-        if let value = model.name {
-            renderInfo(for: lblFirstName, value: value)
-        }
+        renderInfo(for: lblFirstName, value: model.name)
 
         if let value = model.nationality {
             renderInfo(for: lblNationality, value: value)
@@ -80,10 +78,6 @@ extension AstronautDetailViewController: AstronautDetailView {
         if let value = model.biography {
             renderInfo(for: lblBiography, value: value)
         }
-    }
-
-    func showErrorWith(message: String) {
-        showAlert(message: message)
     }
 
     func renderInfo(for label: UILabel, value: String) {

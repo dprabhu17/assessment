@@ -9,6 +9,7 @@ import UIKit
 
 // MARK: Color Assets
 extension UIImage {
+    // To get image from application's image asset
     static func get(_ asset: ImageAsset) -> UIImage? {
         asset.image
     }

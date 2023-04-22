@@ -6,10 +6,10 @@
 //
 
 import Foundation
-
+// Network configuration to manage base url and path for RESTful web services.
 enum APIEndPoints {
-    case austranautList
-    case austranautDetails(id: Int)
+    case astronautList
+    case astronautDetails(id: Int)
 }
 extension APIEndPoints {
     private var baseURL: String {
@@ -17,8 +17,8 @@ extension APIEndPoints {
     }
     private var path: String {
         switch self {
-        case .austranautList: return "/astronaut"
-        case .austranautDetails(let id): return "/astronaut/\(id)"
+        case .astronautList: return "/astronaut"
+        case .astronautDetails(let id): return "/astronaut/\(id)"
         }
     }
     var url: URL {

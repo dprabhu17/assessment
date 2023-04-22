@@ -1,0 +1,407 @@
+{
+    "count": 725,
+    "next": "https://spacelaunchnow.me/api/3.5.0/astronaut/?limit=10&offset=10",
+    "previous": null,
+    "results": [
+        {
+            "id": 32,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/32/",
+            "name": "John Young",
+            "status": {
+                "id": 11,
+                "name": "Deceased"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1930-09-24",
+            "date_of_death": "2018-01-05",
+            "nationality": "American",
+            "bio": "John Watts Young was an American astronaut, naval officer and aviator, test pilot, and aeronautical engineer. He became the ninth person to walk on the Moon as Commander of the Apollo 16 mission in 1972. Young enjoyed the longest career of any astronaut, becoming the first person to fly six space missions (with seven launches, counting his lunar liftoff) over the course of 42 years of active NASA service. He is the only person to have piloted, and been commander of, four different classes of spacecraft: Gemini, the Apollo Command/Service Module, the Apollo Lunar Module, and the Space Shuttle.\r\n\r\nIn 1965, Young flew on the first manned Gemini mission, and commanded another Gemini mission the next year. In 1969 during Apollo 10, he became the first person to fly solo around the Moon. He drove the Lunar Roving Vehicle on the Moon's surface during Apollo 16, and is one of only three people to have flown to the Moon twice. He also commanded two Space Shuttle flights, including its first launch in 1981, and served as Chief of the Astronaut Office from 1974 to 1987. Young retired from NASA in 2004. He died on January 5, 2018.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/John_Young_(astronaut)",
+            "agency": {
+                "id": 44,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "NASA",
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Bill Nelson",
+                "founding_year": "1958",
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg"
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/john2520young_image_20190426143657.jpeg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/john_young_thumbnail_20220911033705.jpeg",
+            "last_flight": "1983-11-28T16:00:00Z",
+            "first_flight": "1965-03-23T14:24:00Z"
+        },
+        {
+            "id": 34,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/34/",
+            "name": "Jim Lovell",
+            "status": {
+                "id": 2,
+                "name": "Retired"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1928-03-25",
+            "date_of_death": null,
+            "nationality": "American",
+            "bio": "James Arthur Lovell Jr. is a former NASA astronaut, Naval Aviator, and retired Navy captain. Lovell is known for being the commander of the ill-fated Apollo 13 mission, which suffered a critical failure en route to the Moon but was brought back safely to Earth through the efforts of the crew and mission control. In addition to being part of the Apollo 13 crew, Lovell was the command module pilot of Apollo 8, the first Apollo mission to enter lunar orbit.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/Jim_Lovell",
+            "agency": {
+                "id": 44,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "NASA",
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Bill Nelson",
+                "founding_year": "1958",
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg"
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/jim2520lovell_image_20181128143638.jpg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/jim_lovell_thumbnail_20220911034112.jpeg",
+            "last_flight": "1970-04-11T19:13:00Z",
+            "first_flight": "1965-12-04T19:30:03Z"
+        },
+        {
+            "id": 48,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/48/",
+            "name": "Clifton Williams",
+            "status": {
+                "id": 5,
+                "name": "Lost In Training"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1932-09-26",
+            "date_of_death": "1967-10-05",
+            "nationality": "American",
+            "bio": "Clifton Curtis \"C.C.\" Williams Jr. was an American naval aviator, test pilot, mechanical engineer, major in the United States Marine Corps, and NASA astronaut, who was killed in a plane crash; he had never been to space. The crash was caused by a mechanical failure in a NASA T-38 jet trainer, which he was piloting to visit his parents in Mobile, Alabama. The failure caused the flight controls to stop responding, and although he activated the ejection seat, it did not save him. He was the fourth astronaut from NASA's Astronaut Group 3 to have died, the first two (Charles Bassett and Theodore Freeman) having been killed in separate T-38 flights, and the third (Roger B. Chaffee) in the Apollo 1 fire earlier that year. The aircraft crashed in Florida near Tallahassee within an hour of departing Patrick AFB.\r\n\r\nAlthough he was never on a spaceflight, he served as backup pilot for the mission Gemini 10, which took place in July 1966. Following this mission, he was selected to be the Lunar Module pilot for an Apollo mission to the Moon commanded by Pete Conrad. Following Williams' death, Alan Bean became Lunar Module pilot for Conrad's mission, which ended up being Apollo 12, the second lunar landing.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/Clifton_Williams",
+            "agency": {
+                "id": 44,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "NASA",
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Bill Nelson",
+                "founding_year": "1958",
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg"
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/clifton2520williams_image_20181128150353.jpg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/clifton_william_thumbnail_20220911033557.jpeg",
+            "last_flight": null,
+            "first_flight": null
+        },
+        {
+            "id": 287,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/287/",
+            "name": "Wang Yaping",
+            "status": {
+                "id": 1,
+                "name": "Active"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1980-01-27",
+            "date_of_death": null,
+            "nationality": "Chinese",
+            "bio": "Colonel Wang Yaping is a Chinese military pilot and astronaut. Wang was the second female astronaut to be named by the CNSA, and the second Chinese woman in space.\r\n\r\nShe was a candidate for the space mission Shenzhou 9 in 2012. However, Liu Yang was selected over her for the historic mission of the first Chinese female space traveller. Wang was a member of the backup crew for SZ-9.\r\n\r\nWang became the second Chinese female astronaut as a member of the Shenzhou 10 spaceship crew, which orbited the earth in June 2013, and of the Tiangong-1 orbiting space station with which it docked. She was the first member of the crew announced, in April, while the remainder of the crew were announced in June. Wang Yaping was one of two women in space on the 50th anniversary of Vostok 6, the first spaceflight by a woman, Valentina Tereshkova. The other woman in space on 16 June 2013 was Karen Nyberg, an American astronaut aboard the International Space Station. While aboard Tiangong-1, Wang conducted scientific experiments and taught a physics lesson to Chinese students by live television broadcast.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/Wang_Yaping",
+            "agency": {
+                "id": 17,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/17/",
+                "name": "China National Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "CHN",
+                "abbrev": "CNSA",
+                "description": "The China National Space Administration (CNSA) is the national space agency of the People's Republic of China. It is responsible for the national space program and for planning and development of space activities. CNSA and China Aerospace Corporation (CASC) assumed the authority over space development efforts previously held by the Ministry of Aerospace Industry. The CNSA has many launch sites around China with their orbital sites located in Jiuquan, Xichang, Taiyuan and Wenchang.",
+                "administrator": "Administrator: Tang Dengjie",
+                "founding_year": "1993",
+                "launchers": "",
+                "spacecraft": "Shenzhou",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/china2520national2520space2520administration_image_20190207032431.jpeg"
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/wang_yaping_image_20211014075922.jpg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/wang_yaping_thumbnail_20220911033654.jpeg",
+            "last_flight": "2021-10-15T16:23:56Z",
+            "first_flight": "2013-06-11T09:38:02Z"
+        },
+        {
+            "id": 51,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/51/",
+            "name": "Edward Gibson",
+            "status": {
+                "id": 2,
+                "name": "Retired"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1936-11-08",
+            "date_of_death": null,
+            "nationality": "American",
+            "bio": "Edward George Gibson is a former NASA astronaut, pilot, engineer, and physicist.\r\n\r\nBefore becoming a NASA astronaut, Gibson graduated from the University of Rochester and the California Institute of Technology. He became a research assistant in jet propulsion while completing his studies and eventually became a research scientist for Philco Corporation until joining NASA.\r\n\r\nGibson was selected as an astronaut by NASA in 1965 as part of Astronaut Group 4, the first group of scientist-astronauts. He served on the support crew of Apollo 12 before moving on to work on the development of the Skylab space station. In 1973–74, Gibson made his first and only flight into space as science pilot aboard Skylab 4, the third and final manned flight to Skylab. He, along with Commander Gerald Carr and Pilot William Pogue, spent just over 84 days in space. Gibson resigned from NASA in December 1974, but returned in 1977 to preside over the selection of scientist-astronaut candidates. Gibson retired from NASA for the last time in October 1982.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/Edward_Gibson",
+            "agency": {
+                "id": 44,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "NASA",
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Bill Nelson",
+                "founding_year": "1958",
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg"
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/edward2520gibson_image_20181128150839.jpg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/edward_gibson_thumbnail_20220911033504.jpeg",
+            "last_flight": "1973-11-16T14:01:23Z",
+            "first_flight": "1973-11-16T14:01:23Z"
+        },
+        {
+            "id": 57,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/57/",
+            "name": "Aidyn Aimbetov",
+            "status": {
+                "id": 1,
+                "name": "Active"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1972-07-27",
+            "date_of_death": null,
+            "nationality": "Kazakhstani",
+            "bio": "Aimbetov was selected to the first Kazakh cosmonaut class in 2002, along with Mukhtar Aimakhanov, out of a pool of 2,000 candidates. From 2003 to 2009, he trained in Russia as a cosmonaut at Star City. He returned to Astana, in Kazakhstan, after failing to secure a spaceflight. He had been scheduled to fly in autumn 2009, but due to the world financial crisis, this fell through. Aimakhanov remained in Russia, becoming a Russian citizen, making Aimbetov the sole Kazakhstani cosmonaut. \r\n\r\nIn June 2015, he was selected to fly on the Soyuz TMA-18M mission in place of singer Sarah Brightman who had withdrawn in May 2015, and her backup, Satoshi Takamatsu, who had also withdrawn. The mission was projected to launch to the International Space Station on 1 September 2015.[4] Aimbetov becomes the third Kazakh-born cosmonaut to fly since Kazakhstan's independence in 1991, and the first to fly under the Kazakh flag, and as part of KazCosmos.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/Aidyn_Aimbetov",
+            "agency": {
+                "id": 182,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/182/",
+                "name": "National Space Agency of the Republic of Kazakhstan",
+                "featured": false,
+                "type": "Government",
+                "country_code": "KAZ",
+                "abbrev": "KazCosmos",
+                "description": "The National Space Agency of the Republic of Kazakhstan, or KazCosmos, was founded in 2007. They have launched 3 satellites, 2 of which are still in operation, KazSat-2 and KazSat-3. Their first cosmonaut class had to cosmonauts, one of which, Aidyn Aimbetov, flew aboard the ISS for 10 days. KazCosmos is heavily linked to the Russian Space Agency due to the Russian's primary launch site being Baikonur Cosmodrome, which is located in Kazakhstan.",
+                "administrator": "Talgat Musabayev",
+                "founding_year": "2007",
+                "launchers": "",
+                "spacecraft": "",
+                "parent": null,
+                "image_url": null
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/aidyn2520aimbetov_image_20181128214459.jpg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/aidyn_aimbetov_thumbnail_20220911034547.jpeg",
+            "last_flight": "2015-09-02T04:37:43Z",
+            "first_flight": "2015-09-02T04:37:43Z"
+        },
+        {
+            "id": 47,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/47/",
+            "name": "Rusty Schweickart",
+            "status": {
+                "id": 2,
+                "name": "Retired"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1935-10-25",
+            "date_of_death": null,
+            "nationality": "American",
+            "bio": "Russell Louis \"Rusty\" Schweickart is an American aeronautical engineer, and a former NASA astronaut, research scientist, U.S. Air Force fighter pilot, as well as a former business executive and government executive.\r\n\r\nSelected in 1963 for NASA's third astronaut group, he is best known as the Lunar Module Pilot on the 1969 Apollo 9 mission, the first manned flight test of the Lunar Module, on which he performed the first in-space test of the Portable Life Support System used by the Apollo astronauts who walked on the Moon. As backup Commander of the first manned Skylab mission in 1973, he was responsible for developing the hardware and procedures used by the first crew to perform critical in-flight repairs of the Skylab station. After Skylab, he served for a time as Director of User Affairs in NASA's Office of Applications.\r\n\r\nSchweickart left NASA in 1977 to serve for two years as California Governor Jerry Brown's assistant for science and technology, then was appointed by Brown to California's Energy Commission for five and a half years, serving as chairman for three.\r\n\r\nIn 1984–85 he co-founded the Association of Space Explorers and later in 2002 co-founded the B612 Foundation, a non-profit organization dedicated to defending Earth from asteroid impacts, along with fellow former astronaut Ed Lu and two planetary scientists. He served for a period as its chair before becoming its chair emeritus.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/Rusty_Schweickart",
+            "agency": {
+                "id": 44,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "NASA",
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Bill Nelson",
+                "founding_year": "1958",
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg"
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/rusty2520schweickart_image_20181128145913.jpg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/rusty_schweicka_thumbnail_20220911033503.jpeg",
+            "last_flight": "1969-03-03T16:00:00Z",
+            "first_flight": "1969-03-03T16:00:00Z"
+        },
+        {
+            "id": 314,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/314/",
+            "name": "William R. Pogue",
+            "status": {
+                "id": 11,
+                "name": "Deceased"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1930-01-23",
+            "date_of_death": "2014-03-03",
+            "nationality": "American",
+            "bio": "William Reid Pogue was an American astronaut, U.S. Air Force fighter pilot, and test pilot who was also an accomplished teacher, public speaker and author.\r\n\r\nBorn and educated in Oklahoma, Pogue graduated from college and enlisted in the United States Air Force, in which he served for 24 years. He flew combat during the Korean War, and with the elite USAF Thunderbirds. He served as a flight instructor and mathematics professor, and was a versatile test pilot, including two years in an exchange with the RAF (UK).\r\n\r\nColonel Pogue was an Air Force instructor when accepted into NASA in 1966. His astronaut career included one orbital mission, as pilot of the last crew of Skylab. The crew set a duration record (84 days) that was unbroken in NASA for over 20 years, and in orbit they conducted dozens of research experiments. The mission was also noted for a dispute with ground control over schedule management that news media named “The Skylab Mutiny”.\r\n\r\nPogue retired from both the USAF and NASA a few months after he returned from Skylab. Over the next 30 plus years he taught, lectured, consulted, and wrote about aviation and aeronatics, in the US and abroad. He died in 2014, age 84, survived by three children, four stepsons, and his third wife.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/William_R._Pogue",
+            "agency": {
+                "id": 44,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "NASA",
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Bill Nelson",
+                "founding_year": "1958",
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg"
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/william2520r.2520pogue_image_20181202091951.jpg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/william_r._pogu_thumbnail_20220911033658.jpeg",
+            "last_flight": "1973-11-16T14:01:23Z",
+            "first_flight": "1973-11-16T14:01:23Z"
+        },
+        {
+            "id": 60,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/60/",
+            "name": "Aleksandr Pavlovich Aleksandrov",
+            "status": {
+                "id": 2,
+                "name": "Retired"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1943-02-20",
+            "date_of_death": null,
+            "nationality": "Russian",
+            "bio": "Aleksandr Pavlovich Aleksandrov (Russian: Александр Павлович Александров; born February 20, 1943) is a former Soviet cosmonaut and twice Hero of the Soviet Union (November 23, 1983, and December 29, 1987).\r\n\r\nHe was selected as cosmonaut on December 1, 1978. For his first spaceflight, he flew as Flight Engineer on Soyuz T-9, which lasted from June to November 1983. For his second spaceflight, he replaced one of the long-duration crew members of Mir EO-2. For the spaceflight, he was launched with the spacecraft Soyuz TM-3 in July 1987, and landed with the same spacecraft in December 1987. All together he spent 309 days, 18 hours, 2 minutes in space. He served as backup for Soyuz T-8, Soyuz T-13, and Soyuz T-15.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/Aleksandr_Pavlovich_Aleksandrov",
+            "agency": {
+                "id": 63,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/63/",
+                "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                "featured": true,
+                "type": "Government",
+                "country_code": "RUS",
+                "abbrev": "RFSA",
+                "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
+                "administrator": "Administrator: Yuri Borisov",
+                "founding_year": "1992",
+                "launchers": "Soyuz",
+                "spacecraft": "Soyuz",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg"
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/aleksandr2520pavlovich2520aleksandrov_image_20181128215144.jpg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/aleksandr_pavlo_thumbnail_20220911033505.jpeg",
+            "last_flight": "1987-07-22T01:59:17Z",
+            "first_flight": "1983-06-27T09:12:00Z"
+        },
+        {
+            "id": 330,
+            "url": "https://spacelaunchnow.me/api/ll/2.1.0/astronaut/330/",
+            "name": "Robert F. Overmyer",
+            "status": {
+                "id": 11,
+                "name": "Deceased"
+            },
+            "type": {
+                "id": 2,
+                "name": "Government"
+            },
+            "date_of_birth": "1936-07-14",
+            "date_of_death": "1996-03-22",
+            "nationality": "American",
+            "bio": "Robert Franklyn \"Bob\" Overmyer was an American test pilot, naval aviator, aeronautical engineer, physicist, United States Marine Corps officer, and USAF/NASA astronaut. He was born in Lorain, Ohio, but considered Westlake, Ohio his hometown. Overmyer was selected by the United States Air Force as an astronaut for its Manned Orbiting Laboratory in 1966. Upon cancellation of this program in 1969, he became a NASA astronaut and served support crew duties for the Skylab program and Apollo-Soyuz Test Project. In 1976, he was assigned to the Space Shuttle program, and flew as pilot on STS-5 in 1982, and as commander on STS-51-B in 1985. He was selected as a lead investigator into the Space Shuttle Challenger disaster, and retired from NASA in 1986. Ten years later, Overmyer died in Duluth, Minnesota while testing the Cirrus VK-30 composite homebuilt aircraft.",
+            "twitter": null,
+            "instagram": null,
+            "wiki": "https://en.wikipedia.org/wiki/Robert_F._Overmyer",
+            "agency": {
+                "id": 44,
+                "url": "https://spacelaunchnow.me/api/ll/2.1.0/agencies/44/",
+                "name": "National Aeronautics and Space Administration",
+                "featured": true,
+                "type": "Government",
+                "country_code": "USA",
+                "abbrev": "NASA",
+                "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+                "administrator": "Administrator: Bill Nelson",
+                "founding_year": "1958",
+                "launchers": "Space Shuttle | SLS",
+                "spacecraft": "Orion",
+                "parent": null,
+                "image_url": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/agency_images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg"
+            },
+            "profile_image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/robert2520f.2520overmyer_image_20181202093931.jpg",
+            "profile_image_thumbnail": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/astronaut_images/robert_f._overm_thumbnail_20220911033947.jpeg",
+            "last_flight": "1985-04-29T16:02:18Z",
+            "first_flight": "1982-11-11T12:19:00Z"
+        }
+    ]
+}

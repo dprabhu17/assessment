@@ -28,8 +28,10 @@ class AstronautDetailPresenter {
 
 // MARK: Instance methods
 extension AstronautDetailPresenter {
+
     func loadAstronautProfile() {
         guard let astronaut = astronaut else { return }
         astronautDetailView?.showDetail(for: astronaut)
     }
+
 }

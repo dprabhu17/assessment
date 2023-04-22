@@ -8,13 +8,7 @@
 import UIKit
 extension UIViewController {
 
-    static func loadFromNib() -> Self {
-        func instantiateFromNib<T: UIViewController>() -> T {
-            return T.init(nibName: String(describing: T.self), bundle: nil)
-        }
-        return instantiateFromNib()
-    }
-
+    // Displays activity indicator on current view
     func displaySpinner() {
         let spinnerView = UIView.init(frame: UIScreen.main.bounds)
         spinnerView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
@@ -34,22 +28,19 @@ extension UIViewController {
         }
     }
 
+    // Removes activity indicator
     func removeSpinner() {
         if let subViews = view.viewWithTag(999) {
             subViews.removeFromSuperview()
         }
     }
 
-    func showAlert(message: String, completion: (() -> Void)? = nil) {
+    // Shows alert with message
+    func showAlert(message: String?, completion: (() -> Void)? = nil) {
         let title = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? "Assignment"
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let cancel = UIAlertAction(title: AstronautListStrings.okCTA, style: .default)
         alertController.addAction(cancel)
-        present(alertController, animated: true, completion: {
-            guard let callback = completion else { return }
-            DispatchQueue.main.async {
-                callback()
-            }
-        })
+        present(alertController, animated: true, completion: completion)
     }
 }

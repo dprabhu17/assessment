@@ -12,13 +12,13 @@ class AstronautDataSource: NSObject {
     let presenter: AstronautListPresenter
 
     // MARK: Lifecycle methods
-    init(presenter: AstronautListPresenter) {
+    public init(presenter: AstronautListPresenter) {
         self.presenter = presenter
     }
 
 }
 
-// MARK: Instance methods
+// MARK: Tableview - Data Source and Delegate
 extension AstronautDataSource: UITableViewDelegate, UITableViewDataSource {
 
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -39,7 +39,7 @@ extension AstronautDataSource: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        presenter.onSelect(austronaut: presenter.getAstronaut(by: indexPath))
+        presenter.onSelect(astronaut: presenter.getAstronaut(by: indexPath))
     }
 
     func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
@@ -50,29 +50,32 @@ extension AstronautDataSource: UITableViewDelegate, UITableViewDataSource {
 
     // Load image url only for visible cell to increase performance
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) { [weak self] in
             if tableView.visibleCells.contains(cell) {
-
-                // Choose upcoming cell and set placeholder image
-                guard  let strongSelf = self, let cell = cell as? AstronautCell else { return }
-                cell.image = UIImage.get(.placeholder)
-
-                // Download image by using download manager
-                let imageUrl = strongSelf.presenter.getAstronaut(by: indexPath).profileImageThumbnail
-                CustomDownloadManager.shared.downloadImage(url: imageUrl,
-                                                           indexPath: indexPath) { (image, _, downloadedIndex, _) in
-
-                    // Set downloaded image
-                    DispatchQueue.main.async {
-                        guard let downloadedIndex = downloadedIndex,
-                                let cell = tableView.cellForRow(at: downloadedIndex) as? AstronautCell else { return }
-                        cell.image = image
-                    }
-
-                }
+                self?.loadImageOnlyForVisibleCell(tableView: tableView, cell: cell, for: indexPath)
             }
         }
     }
 
+    func loadImageOnlyForVisibleCell(tableView: UITableView, cell: UITableViewCell?, for indexPath: IndexPath) {
+
+        // Choose upcoming cell and set placeholder image
+        guard let cell = cell as? AstronautCell else { return }
+        cell.image = UIImage.get(.placeholder)
+
+        // Download image by using download manager
+        let imageUrl = presenter.getAstronaut(by: indexPath).profileImageThumbnail
+        CustomDownloadManager.shared.downloadImage(url: imageUrl,
+                                                   indexPath: indexPath) { (image, _, downloadedIndex, _) in
+
+            // Set downloaded image
+            DispatchQueue.main.async {
+                if let downloadedIndex = downloadedIndex,
+                    let cell = tableView.cellForRow(at: downloadedIndex) as? AstronautCell {
+                    cell.image = image
+                }
+            }
+
+        }
+    }
 }

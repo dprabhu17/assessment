@@ -7,35 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F510367629EFB3AC00792F22 /* AstronautListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510367529EFB3AC00792F22 /* AstronautListView.swift */; };
+		F510367A29EFB86600792F22 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510367929EFB86600792F22 /* Reachability.swift */; };
+		F510368229EFBB8700792F22 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510368129EFBB8700792F22 /* NetworkConfig.swift */; };
+		F510368629EFBC4100792F22 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510368529EFBC4100792F22 /* HTTPError.swift */; };
+		F510368B29EFBE8A00792F22 /* HTTPServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510368A29EFBE8A00792F22 /* HTTPServices.swift */; };
+		F510368E29EFD19500792F22 /* AstronautRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510368D29EFD19500792F22 /* AstronautRepository.swift */; };
+		F510369629EFED2900792F22 /* AstronautModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510369529EFED2900792F22 /* AstronautModels.swift */; };
+		F510369929EFF85900792F22 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F510369829EFF85900792F22 /* RxSwift */; };
+		F510369D29F04ECC00792F22 /* AstronautListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510369C29F04ECC00792F22 /* AstronautListPresenter.swift */; };
+		F51036A129F0575B00792F22 /* AstronautCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510369F29F0575A00792F22 /* AstronautCell.swift */; };
+		F51036A229F0575B00792F22 /* AstronautCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51036A029F0575A00792F22 /* AstronautCell.xib */; };
+		F51036A429F05F0100792F22 /* UIView+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036A329F05F0100792F22 /* UIView+Design.swift */; };
+		F51036A729F07CA700792F22 /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036A629F07CA700792F22 /* DownloadOperation.swift */; };
+		F51036A929F07CB000792F22 /* CustomMediaDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036A829F07CB000792F22 /* CustomMediaDownloadManager.swift */; };
+		F51036AB29F0904400792F22 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036AA29F0904400792F22 /* UITableView+Extensions.swift */; };
+		F51036B129F1083600792F22 /* AstronautDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036AF29F1083600792F22 /* AstronautDetailViewController.swift */; };
+		F51036B229F1083600792F22 /* AstronautDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F51036B029F1083600792F22 /* AstronautDetailViewController.xib */; };
 		F51036B429F128EB00792F22 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036B329F128EB00792F22 /* UIImage+Extensions.swift */; };
-		F54B6C5429F263BA00FF996A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F54B6C5329F263BA00FF996A /* RxSwift */; };
-		F54B6C5C29F263D300FF996A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C5729F263D300FF996A /* Reachability.swift */; };
-		F54B6C5D29F263D300FF996A /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C5929F263D300FF996A /* HTTPError.swift */; };
-		F54B6C5E29F263D300FF996A /* HTTPServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C5A29F263D300FF996A /* HTTPServices.swift */; };
-		F54B6C5F29F263D300FF996A /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C5B29F263D300FF996A /* NetworkConfig.swift */; };
-		F54B6C6229F2641700FF996A /* AstronautRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6129F2641700FF996A /* AstronautRepository.swift */; };
-		F54B6C6429F2642E00FF996A /* AstronautModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6329F2642E00FF996A /* AstronautModels.swift */; };
-		F54B6C7129F2664700FF996A /* AstronautDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6629F2664700FF996A /* AstronautDetailView.swift */; };
-		F54B6C7229F2664700FF996A /* AstronautDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6729F2664700FF996A /* AstronautDetailViewController.swift */; };
-		F54B6C7329F2664700FF996A /* AstronautDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B6C6829F2664700FF996A /* AstronautDetailViewController.xib */; };
-		F54B6C7429F2664700FF996A /* AstronautListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B6C6A29F2664700FF996A /* AstronautListViewController.xib */; };
-		F54B6C7529F2664700FF996A /* AstronautCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6C29F2664700FF996A /* AstronautCell.swift */; };
-		F54B6C7629F2664700FF996A /* AstronautDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6D29F2664700FF996A /* AstronautDataSource.swift */; };
-		F54B6C7729F2664700FF996A /* AstronautCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54B6C6E29F2664700FF996A /* AstronautCell.xib */; };
-		F54B6C7829F2664700FF996A /* AstronautListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C6F29F2664700FF996A /* AstronautListView.swift */; };
-		F54B6C7929F2664700FF996A /* AstronautListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7029F2664700FF996A /* AstronautListViewController.swift */; };
-		F54B6C7C29F266AE00FF996A /* AstronautListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7A29F266AE00FF996A /* AstronautListPresenter.swift */; };
-		F54B6C7D29F266AE00FF996A /* AstronautDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7B29F266AE00FF996A /* AstronautDetailPresenter.swift */; };
-		F54B6C8129F2675400FF996A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7E29F2675400FF996A /* UIViewController+Extensions.swift */; };
-		F54B6C8229F2675400FF996A /* UIView+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C7F29F2675400FF996A /* UIView+Design.swift */; };
-		F54B6C8329F2675400FF996A /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C8029F2675400FF996A /* UITableView+Extensions.swift */; };
-		F54B6C8729F2677500FF996A /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C8529F2677500FF996A /* DownloadOperation.swift */; };
-		F54B6C8829F2677500FF996A /* CustomMediaDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54B6C8629F2677500FF996A /* CustomMediaDownloadManager.swift */; };
+		F51036B729F12D0D00792F22 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036B629F12D0D00792F22 /* MainCoordinator.swift */; };
+		F51036BA29F12D5B00792F22 /* AppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036B929F12D5B00792F22 /* AppFactory.swift */; };
+		F51036BC29F140D600792F22 /* AstronautDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036BB29F140D600792F22 /* AstronautDetailPresenter.swift */; };
+		F51036BE29F1413A00792F22 /* AstronautDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036BD29F1413A00792F22 /* AstronautDetailView.swift */; };
+		F51036C929F19DF200792F22 /* AstronautDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036C829F19DF200792F22 /* AstronautDataSource.swift */; };
+		F51036D329F1EE0800792F22 /* AstronautRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036D229F1EE0800792F22 /* AstronautRepositoryMock.swift */; };
+		F51036D829F1F24A00792F22 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036D729F1F24A00792F22 /* TestUtils.swift */; };
+		F51036DC29F24C0E00792F22 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51036DB29F24C0E00792F22 /* UIViewController+Extensions.swift */; };
+		F51A24CB29F2760700863DAF /* MainCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24CA29F2760700863DAF /* MainCoordinatorMock.swift */; };
+		F51A24CD29F27B8C00863DAF /* AstronautListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24CC29F27B8C00863DAF /* AstronautListPresenterTests.swift */; };
+		F51A24D129F27FC100863DAF /* MockAstronautListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24D029F27FC100863DAF /* MockAstronautListView.swift */; };
+		F51A24D329F288AD00863DAF /* astronauts_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = F51A24D229F288AD00863DAF /* astronauts_mock.json */; };
+		F51A24D429F288ED00863DAF /* astronauts_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = F51A24D229F288AD00863DAF /* astronauts_mock.json */; };
+		F51A24D629F2D40200863DAF /* AstronautDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24D529F2D40200863DAF /* AstronautDetailPresenterTests.swift */; };
+		F51A24DA29F2D61B00863DAF /* MockAstronautDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24D929F2D61B00863DAF /* MockAstronautDetailView.swift */; };
+		F51A24DD29F2D8FD00863DAF /* AstronautsRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24DC29F2D8FD00863DAF /* AstronautsRepositoryTests.swift */; };
+		F51A24E029F2DCFB00863DAF /* MockHTTPServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24DF29F2DCFB00863DAF /* MockHTTPServices.swift */; };
+		F51A24E229F2F22B00863DAF /* AstronautListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24E129F2F22B00863DAF /* AstronautListViewControllerTests.swift */; };
+		F51A24E729F3286F00863DAF /* AstronautDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24E629F3286F00863DAF /* AstronautDetailViewControllerTests.swift */; };
+		F51A24EC29F3D20F00863DAF /* MainCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24EB29F3D20F00863DAF /* MainCoordinatorTests.swift */; };
+		F51A24EE29F3D22500863DAF /* AppFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24ED29F3D22500863DAF /* AppFactoryTests.swift */; };
+		F51A24F029F3E5B000863DAF /* AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51A24EF29F3E5AF00863DAF /* AssessmentTests.swift */; };
 		F55D087429EF1F2B00C49526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D087329EF1F2B00C49526 /* AppDelegate.swift */; };
 		F55D087D29EF1F2C00C49526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55D087C29EF1F2C00C49526 /* Assets.xcassets */; };
 		F55D088029EF1F2C00C49526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55D087E29EF1F2C00C49526 /* LaunchScreen.storyboard */; };
-		F55D088B29EF1F2C00C49526 /* AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D088A29EF1F2C00C49526 /* AssessmentTests.swift */; };
 		F55D08A429EF207400C49526 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55D08A329EF207400C49526 /* Color.xcassets */; };
+		F55D08B229EF2A3400C49526 /* AstronautListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D08B029EF2A3400C49526 /* AstronautListViewController.swift */; };
+		F55D08B329EF2A3400C49526 /* AstronautListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F55D08B129EF2A3400C49526 /* AstronautListViewController.xib */; };
 		F55D08C029EF39E100C49526 /* UIColor+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D08BF29EF39E100C49526 /* UIColor+App.swift */; };
 		F55D08C229EF3A2A00C49526 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D08C129EF3A2A00C49526 /* AppStrings.swift */; };
 /* End PBXBuildFile section */
@@ -51,37 +68,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F510367529EFB3AC00792F22 /* AstronautListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListView.swift; sourceTree = "<group>"; };
+		F510367929EFB86600792F22 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F510368129EFBB8700792F22 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		F510368529EFBC4100792F22 /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		F510368A29EFBE8A00792F22 /* HTTPServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPServices.swift; sourceTree = "<group>"; };
+		F510368D29EFD19500792F22 /* AstronautRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautRepository.swift; sourceTree = "<group>"; };
+		F510369529EFED2900792F22 /* AstronautModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautModels.swift; sourceTree = "<group>"; };
+		F510369C29F04ECC00792F22 /* AstronautListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListPresenter.swift; sourceTree = "<group>"; };
+		F510369F29F0575A00792F22 /* AstronautCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautCell.swift; sourceTree = "<group>"; };
+		F51036A029F0575A00792F22 /* AstronautCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AstronautCell.xib; sourceTree = "<group>"; };
+		F51036A329F05F0100792F22 /* UIView+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Design.swift"; sourceTree = "<group>"; };
+		F51036A629F07CA700792F22 /* DownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
+		F51036A829F07CB000792F22 /* CustomMediaDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMediaDownloadManager.swift; sourceTree = "<group>"; };
+		F51036AA29F0904400792F22 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		F51036AF29F1083600792F22 /* AstronautDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailViewController.swift; sourceTree = "<group>"; };
+		F51036B029F1083600792F22 /* AstronautDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AstronautDetailViewController.xib; sourceTree = "<group>"; };
 		F51036B329F128EB00792F22 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
-		F54B6C5729F263D300FF996A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		F54B6C5929F263D300FF996A /* HTTPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
-		F54B6C5A29F263D300FF996A /* HTTPServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServices.swift; sourceTree = "<group>"; };
-		F54B6C5B29F263D300FF996A /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
-		F54B6C6129F2641700FF996A /* AstronautRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautRepository.swift; sourceTree = "<group>"; };
-		F54B6C6329F2642E00FF996A /* AstronautModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautModels.swift; sourceTree = "<group>"; };
-		F54B6C6629F2664700FF996A /* AstronautDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautDetailView.swift; sourceTree = "<group>"; };
-		F54B6C6729F2664700FF996A /* AstronautDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautDetailViewController.swift; sourceTree = "<group>"; };
-		F54B6C6829F2664700FF996A /* AstronautDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AstronautDetailViewController.xib; sourceTree = "<group>"; };
-		F54B6C6A29F2664700FF996A /* AstronautListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AstronautListViewController.xib; sourceTree = "<group>"; };
-		F54B6C6C29F2664700FF996A /* AstronautCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautCell.swift; sourceTree = "<group>"; };
-		F54B6C6D29F2664700FF996A /* AstronautDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautDataSource.swift; sourceTree = "<group>"; };
-		F54B6C6E29F2664700FF996A /* AstronautCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AstronautCell.xib; sourceTree = "<group>"; };
-		F54B6C6F29F2664700FF996A /* AstronautListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautListView.swift; sourceTree = "<group>"; };
-		F54B6C7029F2664700FF996A /* AstronautListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautListViewController.swift; sourceTree = "<group>"; };
-		F54B6C7A29F266AE00FF996A /* AstronautListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautListPresenter.swift; sourceTree = "<group>"; };
-		F54B6C7B29F266AE00FF996A /* AstronautDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronautDetailPresenter.swift; sourceTree = "<group>"; };
-		F54B6C7E29F2675400FF996A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		F54B6C7F29F2675400FF996A /* UIView+Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Design.swift"; sourceTree = "<group>"; };
-		F54B6C8029F2675400FF996A /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
-		F54B6C8529F2677500FF996A /* DownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
-		F54B6C8629F2677500FF996A /* CustomMediaDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMediaDownloadManager.swift; sourceTree = "<group>"; };
+		F51036B629F12D0D00792F22 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		F51036B929F12D5B00792F22 /* AppFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
+		F51036BB29F140D600792F22 /* AstronautDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailPresenter.swift; sourceTree = "<group>"; };
+		F51036BD29F1413A00792F22 /* AstronautDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailView.swift; sourceTree = "<group>"; };
+		F51036C829F19DF200792F22 /* AstronautDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDataSource.swift; sourceTree = "<group>"; };
+		F51036D229F1EE0800792F22 /* AstronautRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautRepositoryMock.swift; sourceTree = "<group>"; };
+		F51036D729F1F24A00792F22 /* TestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
+		F51036DB29F24C0E00792F22 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		F51A24CA29F2760700863DAF /* MainCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorMock.swift; sourceTree = "<group>"; };
+		F51A24CC29F27B8C00863DAF /* AstronautListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListPresenterTests.swift; sourceTree = "<group>"; };
+		F51A24D029F27FC100863DAF /* MockAstronautListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAstronautListView.swift; sourceTree = "<group>"; };
+		F51A24D229F288AD00863DAF /* astronauts_mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts_mock.json; sourceTree = "<group>"; };
+		F51A24D529F2D40200863DAF /* AstronautDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailPresenterTests.swift; sourceTree = "<group>"; };
+		F51A24D929F2D61B00863DAF /* MockAstronautDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAstronautDetailView.swift; sourceTree = "<group>"; };
+		F51A24DC29F2D8FD00863DAF /* AstronautsRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsRepositoryTests.swift; sourceTree = "<group>"; };
+		F51A24DF29F2DCFB00863DAF /* MockHTTPServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHTTPServices.swift; sourceTree = "<group>"; };
+		F51A24E129F2F22B00863DAF /* AstronautListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListViewControllerTests.swift; sourceTree = "<group>"; };
+		F51A24E629F3286F00863DAF /* AstronautDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		F51A24EB29F3D20F00863DAF /* MainCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorTests.swift; sourceTree = "<group>"; };
+		F51A24ED29F3D22500863DAF /* AppFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactoryTests.swift; sourceTree = "<group>"; };
+		F51A24EF29F3E5AF00863DAF /* AssessmentTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentTests.swift; sourceTree = "<group>"; };
 		F55D087029EF1F2B00C49526 /* Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55D087329EF1F2B00C49526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F55D087C29EF1F2C00C49526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F55D087F29EF1F2C00C49526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F55D088129EF1F2C00C49526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F55D088629EF1F2C00C49526 /* AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F55D088A29EF1F2C00C49526 /* AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentTests.swift; sourceTree = "<group>"; };
 		F55D08A329EF207400C49526 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		F55D08B029EF2A3400C49526 /* AstronautListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListViewController.swift; sourceTree = "<group>"; };
+		F55D08B129EF2A3400C49526 /* AstronautListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AstronautListViewController.xib; sourceTree = "<group>"; };
 		F55D08BF29EF39E100C49526 /* UIColor+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+App.swift"; sourceTree = "<group>"; };
 		F55D08C129EF3A2A00C49526 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54B6C5429F263BA00FF996A /* RxSwift in Frameworks */,
+				F510369929EFF85900792F22 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,79 +138,168 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F54B6C5529F263D300FF996A /* HTTPServices */ = {
+		F510367729EFB78400792F22 /* HTTPServices */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C5629F263D300FF996A /* Reachability */,
-				F54B6C5829F263D300FF996A /* Services */,
-				F54B6C5B29F263D300FF996A /* NetworkConfig.swift */,
+				F510367829EFB85E00792F22 /* Reachability */,
+				F510368729EFBDC200792F22 /* Services */,
+				F510368129EFBB8700792F22 /* NetworkConfig.swift */,
 			);
 			path = HTTPServices;
 			sourceTree = "<group>";
 		};
-		F54B6C5629F263D300FF996A /* Reachability */ = {
+		F510367829EFB85E00792F22 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C5729F263D300FF996A /* Reachability.swift */,
+				F510367929EFB86600792F22 /* Reachability.swift */,
 			);
 			path = Reachability;
 			sourceTree = "<group>";
 		};
-		F54B6C5829F263D300FF996A /* Services */ = {
+		F510368729EFBDC200792F22 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C5929F263D300FF996A /* HTTPError.swift */,
-				F54B6C5A29F263D300FF996A /* HTTPServices.swift */,
+				F510368A29EFBE8A00792F22 /* HTTPServices.swift */,
+				F510368529EFBC4100792F22 /* HTTPError.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		F54B6C6029F2641700FF996A /* Services */ = {
+		F510368C29EFD15700792F22 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C6129F2641700FF996A /* AstronautRepository.swift */,
+				F510368D29EFD19500792F22 /* AstronautRepository.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
 		};
-		F54B6C6529F2664700FF996A /* AstronautDetails */ = {
+		F51036A529F07C8E00792F22 /* ImageDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C6629F2664700FF996A /* AstronautDetailView.swift */,
-				F54B6C6729F2664700FF996A /* AstronautDetailViewController.swift */,
-				F54B6C6829F2664700FF996A /* AstronautDetailViewController.xib */,
+				F51036A629F07CA700792F22 /* DownloadOperation.swift */,
+				F51036A829F07CB000792F22 /* CustomMediaDownloadManager.swift */,
+			);
+			path = ImageDownloader;
+			sourceTree = "<group>";
+		};
+		F51036AE29F1081300792F22 /* AstronautDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F51036BD29F1413A00792F22 /* AstronautDetailView.swift */,
+				F51036AF29F1083600792F22 /* AstronautDetailViewController.swift */,
+				F51036B029F1083600792F22 /* AstronautDetailViewController.xib */,
 			);
 			path = AstronautDetails;
 			sourceTree = "<group>";
 		};
-		F54B6C6929F2664700FF996A /* AstronautList */ = {
+		F51036B529F12CFF00792F22 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C6A29F2664700FF996A /* AstronautListViewController.xib */,
-				F54B6C6B29F2664700FF996A /* TableView */,
-				F54B6C6F29F2664700FF996A /* AstronautListView.swift */,
-				F54B6C7029F2664700FF996A /* AstronautListViewController.swift */,
+				F51036B629F12D0D00792F22 /* MainCoordinator.swift */,
 			);
-			path = AstronautList;
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		F54B6C6B29F2664700FF996A /* TableView */ = {
+		F51036B829F12D4200792F22 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C6C29F2664700FF996A /* AstronautCell.swift */,
-				F54B6C6D29F2664700FF996A /* AstronautDataSource.swift */,
-				F54B6C6E29F2664700FF996A /* AstronautCell.xib */,
+				F51036B929F12D5B00792F22 /* AppFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		F51036C729F19DCC00792F22 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				F51036C829F19DF200792F22 /* AstronautDataSource.swift */,
+				F510369F29F0575A00792F22 /* AstronautCell.swift */,
+				F51036A029F0575A00792F22 /* AstronautCell.xib */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
 		};
-		F54B6C8429F2677500FF996A /* ImageDownloader */ = {
+		F51036CB29F1EACA00792F22 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C8529F2677500FF996A /* DownloadOperation.swift */,
-				F54B6C8629F2677500FF996A /* CustomMediaDownloadManager.swift */,
+				F51A24E329F2F2D000863DAF /* Services */,
+				F51A24D829F2D5DE00863DAF /* AstronautDetailTests */,
+				F51A24D729F2D5CA00863DAF /* AstronautListTests */,
 			);
-			path = ImageDownloader;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F51036D129F1EDEF00792F22 /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F51036D429F1EF9200792F22 /* Resources */,
+				F51A24CA29F2760700863DAF /* MainCoordinatorMock.swift */,
+				F51036D729F1F24A00792F22 /* TestUtils.swift */,
+				F51A24DF29F2DCFB00863DAF /* MockHTTPServices.swift */,
+				F51036D229F1EE0800792F22 /* AstronautRepositoryMock.swift */,
+				F51A24EF29F3E5AF00863DAF /* AssessmentTests.swift */,
+			);
+			path = OtherFiles;
+			sourceTree = "<group>";
+		};
+		F51036D429F1EF9200792F22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F51A24D229F288AD00863DAF /* astronauts_mock.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F51A24D729F2D5CA00863DAF /* AstronautListTests */ = {
+			isa = PBXGroup;
+			children = (
+				F51A24D029F27FC100863DAF /* MockAstronautListView.swift */,
+				F51A24CC29F27B8C00863DAF /* AstronautListPresenterTests.swift */,
+				F51A24E129F2F22B00863DAF /* AstronautListViewControllerTests.swift */,
+			);
+			path = AstronautListTests;
+			sourceTree = "<group>";
+		};
+		F51A24D829F2D5DE00863DAF /* AstronautDetailTests */ = {
+			isa = PBXGroup;
+			children = (
+				F51A24D929F2D61B00863DAF /* MockAstronautDetailView.swift */,
+				F51A24D529F2D40200863DAF /* AstronautDetailPresenterTests.swift */,
+				F51A24E629F3286F00863DAF /* AstronautDetailViewControllerTests.swift */,
+			);
+			path = AstronautDetailTests;
+			sourceTree = "<group>";
+		};
+		F51A24DB29F2D8DF00863DAF /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				F51A24ED29F3D22500863DAF /* AppFactoryTests.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		F51A24DE29F2D90B00863DAF /* AppComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F51A24EA29F3D1F900863DAF /* Coordinator */,
+				F51A24DB29F2D8DF00863DAF /* Factory */,
+			);
+			path = AppComponents;
+			sourceTree = "<group>";
+		};
+		F51A24E329F2F2D000863DAF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F51A24DC29F2D8FD00863DAF /* AstronautsRepositoryTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F51A24EA29F3D1F900863DAF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F51A24EB29F3D20F00863DAF /* MainCoordinatorTests.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		F55D086729EF1F2B00C49526 = {
@@ -212,7 +334,9 @@
 		F55D088929EF1F2C00C49526 /* AssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				F55D088A29EF1F2C00C49526 /* AssessmentTests.swift */,
+				F51A24DE29F2D90B00863DAF /* AppComponents */,
+				F51036CB29F1EACA00792F22 /* Application */,
+				F51036D129F1EDEF00792F22 /* OtherFiles */,
 			);
 			path = AssessmentTests;
 			sourceTree = "<group>";
@@ -223,7 +347,7 @@
 				F55D08AC29EF294400C49526 /* Models */,
 				F55D08AD29EF297300C49526 /* Views */,
 				F55D08AE29EF297800C49526 /* Presenters */,
-				F54B6C6029F2641700FF996A /* Services */,
+				F510368C29EFD15700792F22 /* Services */,
 				F55D087329EF1F2B00C49526 /* AppDelegate.swift */,
 			);
 			path = Application;
@@ -242,8 +366,10 @@
 		F55D08AB29EF28C100C49526 /* AppComponents */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C8429F2677500FF996A /* ImageDownloader */,
-				F54B6C5529F263D300FF996A /* HTTPServices */,
+				F51036B829F12D4200792F22 /* Factory */,
+				F51036B529F12CFF00792F22 /* Coordinator */,
+				F510367729EFB78400792F22 /* HTTPServices */,
+				F51036A529F07C8E00792F22 /* ImageDownloader */,
 				F55D08BA29EF2C3300C49526 /* Config */,
 				F55D08B529EF2A6600C49526 /* Extensions */,
 			);
@@ -253,7 +379,7 @@
 		F55D08AC29EF294400C49526 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C6329F2642E00FF996A /* AstronautModels.swift */,
+				F510369529EFED2900792F22 /* AstronautModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -261,8 +387,8 @@
 		F55D08AD29EF297300C49526 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C6529F2664700FF996A /* AstronautDetails */,
-				F54B6C6929F2664700FF996A /* AstronautList */,
+				F55D08AF29EF299800C49526 /* AstronautList */,
+				F51036AE29F1081300792F22 /* AstronautDetails */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,20 +396,31 @@
 		F55D08AE29EF297800C49526 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C7B29F266AE00FF996A /* AstronautDetailPresenter.swift */,
-				F54B6C7A29F266AE00FF996A /* AstronautListPresenter.swift */,
+				F510369C29F04ECC00792F22 /* AstronautListPresenter.swift */,
+				F51036BB29F140D600792F22 /* AstronautDetailPresenter.swift */,
 			);
 			path = Presenters;
+			sourceTree = "<group>";
+		};
+		F55D08AF29EF299800C49526 /* AstronautList */ = {
+			isa = PBXGroup;
+			children = (
+				F51036C729F19DCC00792F22 /* TableView */,
+				F510367529EFB3AC00792F22 /* AstronautListView.swift */,
+				F55D08B029EF2A3400C49526 /* AstronautListViewController.swift */,
+				F55D08B129EF2A3400C49526 /* AstronautListViewController.xib */,
+			);
+			path = AstronautList;
 			sourceTree = "<group>";
 		};
 		F55D08B529EF2A6600C49526 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				F54B6C8029F2675400FF996A /* UITableView+Extensions.swift */,
-				F54B6C7F29F2675400FF996A /* UIView+Design.swift */,
-				F54B6C7E29F2675400FF996A /* UIViewController+Extensions.swift */,
+				F51036DB29F24C0E00792F22 /* UIViewController+Extensions.swift */,
 				F55D08BF29EF39E100C49526 /* UIColor+App.swift */,
 				F51036B329F128EB00792F22 /* UIImage+Extensions.swift */,
+				F51036A329F05F0100792F22 /* UIView+Design.swift */,
+				F51036AA29F0904400792F22 /* UITableView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -314,7 +451,7 @@
 			);
 			name = Assessment;
 			packageProductDependencies = (
-				F54B6C5329F263BA00FF996A /* RxSwift */,
+				F510369829EFF85900792F22 /* RxSwift */,
 			);
 			productName = Assessment;
 			productReference = F55D087029EF1F2B00C49526 /* Assessment.app */;
@@ -367,7 +504,7 @@
 			);
 			mainGroup = F55D086729EF1F2B00C49526;
 			packageReferences = (
-				F54B6C5229F263BA00FF996A /* XCRemoteSwiftPackageReference "RxSwift" */,
+				F510369729EFF85900792F22 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = F55D087129EF1F2B00C49526 /* Products */;
 			projectDirPath = "";
@@ -384,12 +521,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55D08B329EF2A3400C49526 /* AstronautListViewController.xib in Resources */,
 				F55D088029EF1F2C00C49526 /* LaunchScreen.storyboard in Resources */,
-				F54B6C7429F2664700FF996A /* AstronautListViewController.xib in Resources */,
+				F51A24D429F288ED00863DAF /* astronauts_mock.json in Resources */,
+				F51036A229F0575B00792F22 /* AstronautCell.xib in Resources */,
+				F51036B229F1083600792F22 /* AstronautDetailViewController.xib in Resources */,
 				F55D08A429EF207400C49526 /* Color.xcassets in Resources */,
 				F55D087D29EF1F2C00C49526 /* Assets.xcassets in Resources */,
-				F54B6C7329F2664700FF996A /* AstronautDetailViewController.xib in Resources */,
-				F54B6C7729F2664700FF996A /* AstronautCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +535,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51A24D329F288AD00863DAF /* astronauts_mock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,29 +568,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54B6C7629F2664700FF996A /* AstronautDataSource.swift in Sources */,
-				F54B6C7529F2664700FF996A /* AstronautCell.swift in Sources */,
-				F54B6C5C29F263D300FF996A /* Reachability.swift in Sources */,
-				F54B6C8729F2677500FF996A /* DownloadOperation.swift in Sources */,
-				F54B6C6429F2642E00FF996A /* AstronautModels.swift in Sources */,
-				F54B6C8829F2677500FF996A /* CustomMediaDownloadManager.swift in Sources */,
-				F54B6C7129F2664700FF996A /* AstronautDetailView.swift in Sources */,
-				F54B6C6229F2641700FF996A /* AstronautRepository.swift in Sources */,
-				F54B6C8129F2675400FF996A /* UIViewController+Extensions.swift in Sources */,
-				F54B6C7829F2664700FF996A /* AstronautListView.swift in Sources */,
-				F54B6C8229F2675400FF996A /* UIView+Design.swift in Sources */,
+				F51036A929F07CB000792F22 /* CustomMediaDownloadManager.swift in Sources */,
+				F51036A729F07CA700792F22 /* DownloadOperation.swift in Sources */,
+				F51036DC29F24C0E00792F22 /* UIViewController+Extensions.swift in Sources */,
+				F510367A29EFB86600792F22 /* Reachability.swift in Sources */,
+				F51036BE29F1413A00792F22 /* AstronautDetailView.swift in Sources */,
+				F510368B29EFBE8A00792F22 /* HTTPServices.swift in Sources */,
+				F510367629EFB3AC00792F22 /* AstronautListView.swift in Sources */,
+				F51036BC29F140D600792F22 /* AstronautDetailPresenter.swift in Sources */,
+				F51036B729F12D0D00792F22 /* MainCoordinator.swift in Sources */,
+				F55D08B229EF2A3400C49526 /* AstronautListViewController.swift in Sources */,
 				F55D08C029EF39E100C49526 /* UIColor+App.swift in Sources */,
-				F54B6C7929F2664700FF996A /* AstronautListViewController.swift in Sources */,
-				F54B6C5D29F263D300FF996A /* HTTPError.swift in Sources */,
+				F510368E29EFD19500792F22 /* AstronautRepository.swift in Sources */,
+				F51036A129F0575B00792F22 /* AstronautCell.swift in Sources */,
 				F55D08C229EF3A2A00C49526 /* AppStrings.swift in Sources */,
-				F54B6C5F29F263D300FF996A /* NetworkConfig.swift in Sources */,
+				F510368229EFBB8700792F22 /* NetworkConfig.swift in Sources */,
+				F510369D29F04ECC00792F22 /* AstronautListPresenter.swift in Sources */,
+				F51036A429F05F0100792F22 /* UIView+Design.swift in Sources */,
 				F51036B429F128EB00792F22 /* UIImage+Extensions.swift in Sources */,
-				F54B6C8329F2675400FF996A /* UITableView+Extensions.swift in Sources */,
-				F54B6C7229F2664700FF996A /* AstronautDetailViewController.swift in Sources */,
+				F51036C929F19DF200792F22 /* AstronautDataSource.swift in Sources */,
+				F51036AB29F0904400792F22 /* UITableView+Extensions.swift in Sources */,
+				F51036BA29F12D5B00792F22 /* AppFactory.swift in Sources */,
+				F510368629EFBC4100792F22 /* HTTPError.swift in Sources */,
 				F55D087429EF1F2B00C49526 /* AppDelegate.swift in Sources */,
-				F54B6C7C29F266AE00FF996A /* AstronautListPresenter.swift in Sources */,
-				F54B6C5E29F263D300FF996A /* HTTPServices.swift in Sources */,
-				F54B6C7D29F266AE00FF996A /* AstronautDetailPresenter.swift in Sources */,
+				F510369629EFED2900792F22 /* AstronautModels.swift in Sources */,
+				F51036B129F1083600792F22 /* AstronautDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +600,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F55D088B29EF1F2C00C49526 /* AssessmentTests.swift in Sources */,
+				F51A24D129F27FC100863DAF /* MockAstronautListView.swift in Sources */,
+				F51A24DD29F2D8FD00863DAF /* AstronautsRepositoryTests.swift in Sources */,
+				F51A24E229F2F22B00863DAF /* AstronautListViewControllerTests.swift in Sources */,
+				F51A24F029F3E5B000863DAF /* AssessmentTests.swift in Sources */,
+				F51A24EC29F3D20F00863DAF /* MainCoordinatorTests.swift in Sources */,
+				F51A24DA29F2D61B00863DAF /* MockAstronautDetailView.swift in Sources */,
+				F51036D329F1EE0800792F22 /* AstronautRepositoryMock.swift in Sources */,
+				F51A24EE29F3D22500863DAF /* AppFactoryTests.swift in Sources */,
+				F51A24E729F3286F00863DAF /* AstronautDetailViewControllerTests.swift in Sources */,
+				F51A24CB29F2760700863DAF /* MainCoordinatorMock.swift in Sources */,
+				F51A24D629F2D40200863DAF /* AstronautDetailPresenterTests.swift in Sources */,
+				F51036D829F1F24A00792F22 /* TestUtils.swift in Sources */,
+				F51A24E029F2DCFB00863DAF /* MockHTTPServices.swift in Sources */,
+				F51A24CD29F27B8C00863DAF /* AstronautListPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,7 +880,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F54B6C5229F263BA00FF996A /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		F510369729EFF85900792F22 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift";
 			requirement = {
@@ -737,9 +891,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F54B6C5329F263BA00FF996A /* RxSwift */ = {
+		F510369829EFF85900792F22 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F54B6C5229F263BA00FF996A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = F510369729EFF85900792F22 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

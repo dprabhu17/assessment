@@ -9,6 +9,7 @@ import UIKit
 
 // MARK: Color Assets
 extension UIColor {
+    // To get color from application's color asset
     static func get(_ asset: ColorAsset) -> UIColor {
         asset.color
     }

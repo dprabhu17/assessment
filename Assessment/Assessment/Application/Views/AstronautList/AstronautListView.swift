@@ -7,11 +7,11 @@
 
 import Foundation
 // MARK: Protocol for astronaut list view controller's presenter
-protocol AstronautListView: AnyObject {
+public protocol AstronautListView: AnyObject {
     func filterRecords()
     func showLoadingStatus()
     func hideLoadingStatus()
     func reloadData()
-    func showErrorWith(message: String)
+    func showErrorWith(message: String?)
     func showDetail(for astronaut: Astronaut)
 }

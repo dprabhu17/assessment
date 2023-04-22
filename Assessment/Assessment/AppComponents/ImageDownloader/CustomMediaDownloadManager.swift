@@ -12,7 +12,7 @@ typealias ImageDownloadedCallback = (_ image: UIImage?, _ url: URL?, _ indexPath
 class CustomDownloadManager {
 
     // MARK: Variables
-    private var completionCallback: ImageDownloadedCallback?
+    var completionCallback: ImageDownloadedCallback?
     let imageCache = NSCache<NSString, UIImage>()
 
     // Operation queue to execute download operations

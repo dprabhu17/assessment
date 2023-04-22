@@ -9,8 +9,8 @@ import Foundation
 
 // MARK: Astronaut - Model
 public struct Astronaut: Decodable {
-    let astronautId: Int?
-    let name: String?
+    let astronautId: Int
+    let name: String
     let profileImage: String?
     let profileImageThumbnail: String?
     let nationality: String?
@@ -30,6 +30,5 @@ public struct Astronaut: Decodable {
 
 // MARK: AstronautList - Model
 public struct AstronautList: Decodable {
-    let count: Int
     let results: [Astronaut]
 }

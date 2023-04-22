@@ -9,11 +9,13 @@ import UIKit
 extension UITableView {
     // Set Empty message for Tableview
     func setEmptyMessageForTableView(dataSource: [Any], messageToDisplay: String) -> Int {
+
         if !dataSource.isEmpty {
             self.backgroundView = nil
             self.separatorStyle = .none
             return 1
         } else {
+
             let lblEmpty = UILabel()
             lblEmpty.textColor = .black
             lblEmpty.font = UIFont(name: "HelveticaNeue", size: 28)
@@ -23,12 +25,13 @@ extension UITableView {
             self.backgroundView = lblEmpty
             self.separatorStyle = .none
             return 0
+
         }
     }
 
     func registerCell(type: UITableViewCell.Type, identifier: String? = nil) {
-      let cellIdentifier = String(describing: type)
-      register(UINib(nibName: cellIdentifier, bundle: nil),
-               forCellReuseIdentifier: identifier ?? cellIdentifier)
+        let cellIdentifier = String(describing: type)
+        register(UINib(nibName: cellIdentifier, bundle: nil),
+                 forCellReuseIdentifier: identifier ?? cellIdentifier)
     }
 }
